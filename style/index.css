@@ -1,0 +1,37 @@
+table {
+    /* display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0; */
+    width: 100%;
+    border: 1px solid black;
+}
+
+th {
+    /* display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0; */
+    width: 22%;
+    border: 1px solid black;
+}
+
+select {
+    /* display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0; */
+    width: 22%;
+    border: 1px solid black;
+}
+td{
+    width: 22%;
+    border: 1px solid black;
+    justify-content: center;
+}

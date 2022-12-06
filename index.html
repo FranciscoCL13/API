@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style/index.css">
+    <title>API-Web Component</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>View: SamplePage</legend>
+
+        <input type="button" value="Cargar nombres" onclick="cargarNombre()" /><br><br>
+
+        <label for="filtro">Filtro:</label>
+        <select id="selecNombre" name="Nombres"></select>
+        <input type="button" value="Ver por nombre" onclick="nombres()"/> <br>
+        <br />
+
+        <input type="button" value="ver todo" onclick="agregarOptions()" /> 
+        <input type="button" value="Limpiar" onclick="reset()"><br> <br>
+        <label for="nota">**Nota** Limpiar para realizar la siguiente consulta**</label> <br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Num</th>
+                    <th>id</th>
+                    <th>Nombre</th>
+                    <th>Valor</th>
+                    <th>Escala</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+
+            </tbody>
+        </table>
+        
+    </fieldset>
+    
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
